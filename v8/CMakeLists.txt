@@ -176,7 +176,6 @@ include(CMakeDependentOption)
 include(GNUInstallDirs)
 
 include(CheckPythonModuleExists)
-include(GenerateBuiltinsList)
 
 check_python_module_exists(PYTHON_HAVE_MARKUPSAFE markupsafe)
 
